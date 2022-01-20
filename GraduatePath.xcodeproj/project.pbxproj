@@ -15,6 +15,8 @@
 		522640E327984AB7009906ED /* ConsultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522640E227984AB7009906ED /* ConsultView.swift */; };
 		522640E527984AC5009906ED /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522640E427984AC5009906ED /* QuizView.swift */; };
 		522640E727984AD2009906ED /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522640E627984AD2009906ED /* AccountView.swift */; };
+		522640E927986043009906ED /* alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522640E827986043009906ED /* alert.swift */; };
+		522640EB27998F8B009906ED /* ChatUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522640EA27998F8B009906ED /* ChatUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		522640E227984AB7009906ED /* ConsultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultView.swift; sourceTree = "<group>"; };
 		522640E427984AC5009906ED /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
 		522640E627984AD2009906ED /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		522640E827986043009906ED /* alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alert.swift; sourceTree = "<group>"; };
+		522640EA27998F8B009906ED /* ChatUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,8 @@
 				522640E227984AB7009906ED /* ConsultView.swift */,
 				522640E427984AC5009906ED /* QuizView.swift */,
 				522640E627984AD2009906ED /* AccountView.swift */,
+				522640E827986043009906ED /* alert.swift */,
+				522640EA27998F8B009906ED /* ChatUI.swift */,
 			);
 			path = GraduatePath;
 			sourceTree = "<group>";
@@ -153,6 +159,8 @@
 				522640E127984AA9009906ED /* HomeView.swift in Sources */,
 				522640D527984A21009906ED /* ContentView.swift in Sources */,
 				522640E527984AC5009906ED /* QuizView.swift in Sources */,
+				522640E927986043009906ED /* alert.swift in Sources */,
+				522640EB27998F8B009906ED /* ChatUI.swift in Sources */,
 				522640D327984A21009906ED /* GraduatePathApp.swift in Sources */,
 				522640E327984AB7009906ED /* ConsultView.swift in Sources */,
 			);
