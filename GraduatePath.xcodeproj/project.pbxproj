@@ -27,6 +27,9 @@
 		522640E727984AD2009906ED /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522640E627984AD2009906ED /* AccountView.swift */; };
 		522640E927986043009906ED /* alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522640E827986043009906ED /* alert.swift */; };
 		522640EB27998F8B009906ED /* ChatUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522640EA27998F8B009906ED /* ChatUI.swift */; };
+		ACF7858D27A02D02006F1C81 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF7858C27A02D02006F1C81 /* SearchBar.swift */; };
+		ACF7858F27A02D40006F1C81 /* UniversitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF7858E27A02D40006F1C81 /* UniversitiesView.swift */; };
+		ACF7859127A02D7C006F1C81 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF7859027A02D7C006F1C81 /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +53,9 @@
 		522640E627984AD2009906ED /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		522640E827986043009906ED /* alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alert.swift; sourceTree = "<group>"; };
 		522640EA27998F8B009906ED /* ChatUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatUI.swift; sourceTree = "<group>"; };
+		ACF7858C27A02D02006F1C81 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		ACF7858E27A02D40006F1C81 /* UniversitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversitiesView.swift; sourceTree = "<group>"; };
+		ACF7859027A02D7C006F1C81 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,7 @@
 		522640C627984A21009906ED = {
 			isa = PBXGroup;
 			children = (
+				ACF7859027A02D7C006F1C81 /* Data.swift */,
 				522640D127984A21009906ED /* GraduatePath */,
 				522640D027984A21009906ED /* Products */,
 			);
@@ -102,6 +109,8 @@
 				521C8579279F8F5800FE5048 /* ExpertRating.swift */,
 				521C857B279F8F6500FE5048 /* ExpertRequest.swift */,
 				521C857D279F937B00FE5048 /* ExpertChat.swift */,
+				ACF7858C27A02D02006F1C81 /* SearchBar.swift */,
+				ACF7858E27A02D40006F1C81 /* UniversitiesView.swift */,
 			);
 			path = GraduatePath;
 			sourceTree = "<group>";
@@ -195,10 +204,13 @@
 				522640E727984AD2009906ED /* AccountView.swift in Sources */,
 				521C857E279F937B00FE5048 /* ExpertChat.swift in Sources */,
 				521C8578279F8E7A00FE5048 /* ExpertAccount.swift in Sources */,
+				ACF7858D27A02D02006F1C81 /* SearchBar.swift in Sources */,
 				522640E127984AA9009906ED /* HomeView.swift in Sources */,
 				521C8570279ED20900FE5048 /* Rating.swift in Sources */,
 				521C8574279F8DC800FE5048 /* ExpertHome.swift in Sources */,
 				522640D527984A21009906ED /* ContentView.swift in Sources */,
+				ACF7858F27A02D40006F1C81 /* UniversitiesView.swift in Sources */,
+				ACF7859127A02D7C006F1C81 /* Data.swift in Sources */,
 				522640E527984AC5009906ED /* QuizView.swift in Sources */,
 				522640E927986043009906ED /* alert.swift in Sources */,
 				522640EB27998F8B009906ED /* ChatUI.swift in Sources */,
