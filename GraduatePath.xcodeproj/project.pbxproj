@@ -20,7 +20,6 @@
 		522640D327984A21009906ED /* GraduatePathApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522640D227984A21009906ED /* GraduatePathApp.swift */; };
 		522640D527984A21009906ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522640D427984A21009906ED /* ContentView.swift */; };
 		522640D727984A23009906ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522640D627984A23009906ED /* Assets.xcassets */; };
-		522640DA27984A23009906ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522640D927984A23009906ED /* Preview Assets.xcassets */; };
 		522640E127984AA9009906ED /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522640E027984AA9009906ED /* HomeView.swift */; };
 		522640E327984AB7009906ED /* ConsultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522640E227984AB7009906ED /* ConsultView.swift */; };
 		522640E527984AC5009906ED /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522640E427984AC5009906ED /* QuizView.swift */; };
@@ -46,7 +45,6 @@
 		522640D227984A21009906ED /* GraduatePathApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraduatePathApp.swift; sourceTree = "<group>"; };
 		522640D427984A21009906ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		522640D627984A23009906ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		522640D927984A23009906ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		522640E027984AA9009906ED /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		522640E227984AB7009906ED /* ConsultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultView.swift; sourceTree = "<group>"; };
 		522640E427984AC5009906ED /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
@@ -93,7 +91,6 @@
 				522640D227984A21009906ED /* GraduatePathApp.swift */,
 				522640D427984A21009906ED /* ContentView.swift */,
 				522640D627984A23009906ED /* Assets.xcassets */,
-				522640D827984A23009906ED /* Preview Content */,
 				522640E027984AA9009906ED /* HomeView.swift */,
 				522640E227984AB7009906ED /* ConsultView.swift */,
 				522640E427984AC5009906ED /* QuizView.swift */,
@@ -113,14 +110,6 @@
 				ACF7858E27A02D40006F1C81 /* UniversitiesView.swift */,
 			);
 			path = GraduatePath;
-			sourceTree = "<group>";
-		};
-		522640D827984A23009906ED /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				522640D927984A23009906ED /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,7 +176,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				522640DA27984A23009906ED /* Preview Assets.xcassets in Resources */,
 				522640D727984A23009906ED /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
