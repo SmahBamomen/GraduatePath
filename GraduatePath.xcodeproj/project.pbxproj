@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		521C856E279D973F00FE5048 /* UniversityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521C856D279D973F00FE5048 /* UniversityView.swift */; };
+		521C8570279ED20900FE5048 /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521C856F279ED20900FE5048 /* Rating.swift */; };
+		521C8572279EDC8700FE5048 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521C8571279EDC8700FE5048 /* RatingView.swift */; };
+		521C8574279F8DC800FE5048 /* ExpertHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521C8573279F8DC800FE5048 /* ExpertHome.swift */; };
+		521C8576279F8E3A00FE5048 /* ExpertTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521C8575279F8E3A00FE5048 /* ExpertTabView.swift */; };
+		521C8578279F8E7A00FE5048 /* ExpertAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521C8577279F8E7A00FE5048 /* ExpertAccount.swift */; };
+		521C857A279F8F5800FE5048 /* ExpertRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521C8579279F8F5800FE5048 /* ExpertRating.swift */; };
+		521C857C279F8F6500FE5048 /* ExpertRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521C857B279F8F6500FE5048 /* ExpertRequest.swift */; };
+		521C857E279F937B00FE5048 /* ExpertChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521C857D279F937B00FE5048 /* ExpertChat.swift */; };
+		521C858127A0197F00FE5048 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 521C858027A0197F00FE5048 /* SwiftUICharts */; };
 		522640D327984A21009906ED /* GraduatePathApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522640D227984A21009906ED /* GraduatePathApp.swift */; };
 		522640D527984A21009906ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522640D427984A21009906ED /* ContentView.swift */; };
 		522640D727984A23009906ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522640D627984A23009906ED /* Assets.xcassets */; };
@@ -20,6 +30,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		521C856D279D973F00FE5048 /* UniversityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityView.swift; sourceTree = "<group>"; };
+		521C856F279ED20900FE5048 /* Rating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
+		521C8571279EDC8700FE5048 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		521C8573279F8DC800FE5048 /* ExpertHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpertHome.swift; sourceTree = "<group>"; };
+		521C8575279F8E3A00FE5048 /* ExpertTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpertTabView.swift; sourceTree = "<group>"; };
+		521C8577279F8E7A00FE5048 /* ExpertAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpertAccount.swift; sourceTree = "<group>"; };
+		521C8579279F8F5800FE5048 /* ExpertRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpertRating.swift; sourceTree = "<group>"; };
+		521C857B279F8F6500FE5048 /* ExpertRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpertRequest.swift; sourceTree = "<group>"; };
+		521C857D279F937B00FE5048 /* ExpertChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpertChat.swift; sourceTree = "<group>"; };
 		522640CF27984A21009906ED /* GraduatePath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraduatePath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		522640D227984A21009906ED /* GraduatePathApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraduatePathApp.swift; sourceTree = "<group>"; };
 		522640D427984A21009906ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				521C858127A0197F00FE5048 /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +93,15 @@
 				522640E627984AD2009906ED /* AccountView.swift */,
 				522640E827986043009906ED /* alert.swift */,
 				522640EA27998F8B009906ED /* ChatUI.swift */,
+				521C856D279D973F00FE5048 /* UniversityView.swift */,
+				521C856F279ED20900FE5048 /* Rating.swift */,
+				521C8571279EDC8700FE5048 /* RatingView.swift */,
+				521C8573279F8DC800FE5048 /* ExpertHome.swift */,
+				521C8575279F8E3A00FE5048 /* ExpertTabView.swift */,
+				521C8577279F8E7A00FE5048 /* ExpertAccount.swift */,
+				521C8579279F8F5800FE5048 /* ExpertRating.swift */,
+				521C857B279F8F6500FE5048 /* ExpertRequest.swift */,
+				521C857D279F937B00FE5048 /* ExpertChat.swift */,
 			);
 			path = GraduatePath;
 			sourceTree = "<group>";
@@ -101,6 +130,9 @@
 			dependencies = (
 			);
 			name = GraduatePath;
+			packageProductDependencies = (
+				521C858027A0197F00FE5048 /* SwiftUICharts */,
+			);
 			productName = GraduatePath;
 			productReference = 522640CF27984A21009906ED /* GraduatePath.app */;
 			productType = "com.apple.product-type.application";
@@ -130,7 +162,7 @@
 			);
 			mainGroup = 522640C627984A21009906ED;
 			packageReferences = (
-				522640EC279A0814009906ED /* XCRemoteSwiftPackageReference "ChartView" */,
+				521C857F27A0197F00FE5048 /* XCRemoteSwiftPackageReference "ChartView" */,
 			);
 			productRefGroup = 522640D027984A21009906ED /* Products */;
 			projectDirPath = "";
@@ -158,14 +190,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				521C8572279EDC8700FE5048 /* RatingView.swift in Sources */,
+				521C8576279F8E3A00FE5048 /* ExpertTabView.swift in Sources */,
 				522640E727984AD2009906ED /* AccountView.swift in Sources */,
+				521C857E279F937B00FE5048 /* ExpertChat.swift in Sources */,
+				521C8578279F8E7A00FE5048 /* ExpertAccount.swift in Sources */,
 				522640E127984AA9009906ED /* HomeView.swift in Sources */,
+				521C8570279ED20900FE5048 /* Rating.swift in Sources */,
+				521C8574279F8DC800FE5048 /* ExpertHome.swift in Sources */,
 				522640D527984A21009906ED /* ContentView.swift in Sources */,
 				522640E527984AC5009906ED /* QuizView.swift in Sources */,
 				522640E927986043009906ED /* alert.swift in Sources */,
 				522640EB27998F8B009906ED /* ChatUI.swift in Sources */,
+				521C857A279F8F5800FE5048 /* ExpertRating.swift in Sources */,
 				522640D327984A21009906ED /* GraduatePathApp.swift in Sources */,
 				522640E327984AB7009906ED /* ConsultView.swift in Sources */,
+				521C856E279D973F00FE5048 /* UniversityView.swift in Sources */,
+				521C857C279F8F6500FE5048 /* ExpertRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,15 +409,23 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		522640EC279A0814009906ED /* XCRemoteSwiftPackageReference "ChartView" */ = {
+		521C857F27A0197F00FE5048 /* XCRemoteSwiftPackageReference "ChartView" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/appPear/ChartView";
+			repositoryURL = "https://github.com/AppPear/ChartView.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
+				minimumVersion = 1.5.5;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		521C858027A0197F00FE5048 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 521C857F27A0197F00FE5048 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 522640C727984A21009906ED /* Project object */;
 }

@@ -10,6 +10,7 @@ import SwiftUI
 struct ChatUI : View {
     @State private var fullText: String = ""
     @State private var showActionSheet = false
+    @State var showingRating = false
     var body: some View {
         
             ZStack {
@@ -29,12 +30,14 @@ struct ChatUI : View {
                             }  .actionSheet(isPresented: $showActionSheet) {
                                 ActionSheet(title: Text("Select an action"), message: nil, buttons: [
                                     .default(Text("Preview Profile").foregroundColor(Color(red: 0.10980392156862745, green: 0.7019607843137254, blue: 0.7058823529411765)), action: {
-                                        // TODO: Enter Option A action
+                                      
                                     }),
                                     .default(Text("End Conversation")
                                                 .foregroundColor(Color(red: 0.10980392156862745, green: 0.7019607843137254, blue: 0.7058823529411765)), action: {
-                                        // TODO: Enter Option B action
-                                    }),
+                                                    Text("News").font(.body)
+                                                          .frame(width: 100.0, height: 100.0)
+                                                   
+                                                }),
                                     .cancel()]
                                 )
                             }
@@ -53,7 +56,7 @@ struct ChatUI : View {
                           
                             TextField("  Message", text: $fullText)
                                     .frame(width: UIScreen.main.bounds.width - 100,height:30)  .background(Color(red: 240/255, green: 240/255, blue: 240/255)).overlay(
-                                        RoundedRectangle(cornerRadius: 5)
+                                        RoundedRectangle(cornerRadius: 20)
                                             .stroke(Color.gray.opacity(0.3), lineWidth: 1)
                                     )
                             Button(action: {

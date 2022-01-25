@@ -2,7 +2,7 @@
 //  UniversityView.swift
 //  GraduatePath
 //
-//  Created by Najla Alshehri on 20/01/2022.
+//  Created by samah on 20/06/1443 AH.
 //
 
 import SwiftUI

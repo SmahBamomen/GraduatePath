@@ -1,20 +1,20 @@
 //
-//  SearchView.swift
+//  ExpertChat.swift
 //  GraduatePath
 //
-//  Created by Najla Alshehri on 19/01/2022.
+//  Created by samah on 22/06/1443 AH.
 //
 
 import SwiftUI
 
-struct SearchView: View {
+struct ExpertChat: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct SearchView_Previews: PreviewProvider {
+struct ExpertChat_Previews: PreviewProvider {
     static var previews: some View {
-        SearchView()
+        ExpertChat()
     }
 }
