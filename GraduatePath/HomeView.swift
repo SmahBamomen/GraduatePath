@@ -9,7 +9,9 @@ import SwiftUI
 import SwiftUICharts
 
 struct HomeView: View {
+   
     var body: some View {
+
 
         NavigationView{
             VStack{
@@ -92,10 +94,24 @@ struct HomeView: View {
         }
 
     }
-}
+        }
+    
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
         HomeView()
     }
 }
+
+//extension Item{
+//static var stubs:[Item] = [
+//    Item(title: "CCIN", children: [
+//        "Computer Sciences"
+//    ),
+//
+//    Item(title:"Information Systems" , children: nil)
+//
+//        ]
+//]
+//}
+

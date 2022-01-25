@@ -13,20 +13,20 @@ struct ContentView: View {
   
     var body: some View {
         TabView(){
-            HomeView()
-                .tabItem{
-                    Image(systemName:"house.fill")
-                    Text("home")
-                }
-          ConsultView()
-                .tabItem{
-                    Image(systemName:"bubble.left.and.bubble.right.fill")
-                    Text("Consult")
-                }
-           QuizView()
-                .tabItem{
-                    Image(systemName:"person.fill.questionmark")
-                    Text("Quiz")
+                  HomeView()
+                      .tabItem{
+                          Image(systemName:"house.fill")
+                          Text("home")
+                      }
+                ConsultView()
+                      .tabItem{
+                          Image(systemName:"bubble.left.and.bubble.right.fill")
+                          Text("Consult")
+                      }
+                 QuizView()
+                      .tabItem{
+                          Image(systemName:"person.fill.questionmark")
+                          Text("Quiz")
                 }
            AccountView()
                  .tabItem{
