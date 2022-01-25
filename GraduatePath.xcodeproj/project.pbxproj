@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		362D3B08279C4B5F008D0E9A /* princess noura university.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362D3B07279C4B5F008D0E9A /* princess noura university.swift */; };
 		362D3B0A279C53A2008D0E9A /*  pnufile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362D3B09279C53A2008D0E9A /*  pnufile.swift */; };
+		366FB73527A01EC5003B6953 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 366FB73427A01EC5003B6953 /* SwiftUICharts */; };
+		366FB73727A01F15003B6953 /* UniversityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FB73627A01F15003B6953 /* UniversityView.swift */; };
 		522640D327984A21009906ED /* GraduatePathApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522640D227984A21009906ED /* GraduatePathApp.swift */; };
 		522640D527984A21009906ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522640D427984A21009906ED /* ContentView.swift */; };
 		522640D727984A23009906ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522640D627984A23009906ED /* Assets.xcassets */; };
@@ -22,6 +24,7 @@
 /* Begin PBXFileReference section */
 		362D3B07279C4B5F008D0E9A /* princess noura university.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "princess noura university.swift"; sourceTree = "<group>"; };
 		362D3B09279C53A2008D0E9A /*  pnufile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " pnufile.swift"; sourceTree = "<group>"; };
+		366FB73627A01F15003B6953 /* UniversityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityView.swift; sourceTree = "<group>"; };
 		522640CF27984A21009906ED /* GraduatePath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraduatePath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		522640D227984A21009906ED /* GraduatePathApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraduatePathApp.swift; sourceTree = "<group>"; };
 		522640D427984A21009906ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				366FB73527A01EC5003B6953 /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +72,7 @@
 				522640D627984A23009906ED /* Assets.xcassets */,
 				522640D827984A23009906ED /* Preview Content */,
 				522640E027984AA9009906ED /* HomeView.swift */,
+				366FB73627A01F15003B6953 /* UniversityView.swift */,
 				522640E227984AB7009906ED /* ConsultView.swift */,
 				522640E427984AC5009906ED /* QuizView.swift */,
 				522640E627984AD2009906ED /* AccountView.swift */,
@@ -101,6 +106,9 @@
 			dependencies = (
 			);
 			name = GraduatePath;
+			packageProductDependencies = (
+				366FB73427A01EC5003B6953 /* SwiftUICharts */,
+			);
 			productName = GraduatePath;
 			productReference = 522640CF27984A21009906ED /* GraduatePath.app */;
 			productType = "com.apple.product-type.application";
@@ -129,6 +137,9 @@
 				Base,
 			);
 			mainGroup = 522640C627984A21009906ED;
+			packageReferences = (
+				366FB73327A01EC5003B6953 /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
 			productRefGroup = 522640D027984A21009906ED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -163,6 +174,7 @@
 				522640D327984A21009906ED /* GraduatePathApp.swift in Sources */,
 				362D3B08279C4B5F008D0E9A /* princess noura university.swift in Sources */,
 				522640E327984AB7009906ED /* ConsultView.swift in Sources */,
+				366FB73727A01F15003B6953 /* UniversityView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +375,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		366FB73327A01EC5003B6953 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		366FB73427A01EC5003B6953 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 366FB73327A01EC5003B6953 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 522640C727984A21009906ED /* Project object */;
 }
