@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		521A168727A039C2005485F9 /* Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A168627A039C2005485F9 /* Intro.swift */; };
 		521C856E279D973F00FE5048 /* UniversityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521C856D279D973F00FE5048 /* UniversityView.swift */; };
 		521C8570279ED20900FE5048 /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521C856F279ED20900FE5048 /* Rating.swift */; };
 		521C8572279EDC8700FE5048 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521C8571279EDC8700FE5048 /* RatingView.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		521A168627A039C2005485F9 /* Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Intro.swift; path = ../Intro.swift; sourceTree = "<group>"; };
 		521C856D279D973F00FE5048 /* UniversityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityView.swift; sourceTree = "<group>"; };
 		521C856F279ED20900FE5048 /* Rating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
 		521C8571279EDC8700FE5048 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				521C857D279F937B00FE5048 /* ExpertChat.swift */,
 				ACF7858C27A02D02006F1C81 /* SearchBar.swift */,
 				ACF7858E27A02D40006F1C81 /* UniversitiesView.swift */,
+				521A168627A039C2005485F9 /* Intro.swift */,
 			);
 			path = GraduatePath;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				521C8574279F8DC800FE5048 /* ExpertHome.swift in Sources */,
 				522640D527984A21009906ED /* ContentView.swift in Sources */,
 				ACF7858F27A02D40006F1C81 /* UniversitiesView.swift in Sources */,
+				521A168727A039C2005485F9 /* Intro.swift in Sources */,
 				ACF7859127A02D7C006F1C81 /* Data.swift in Sources */,
 				522640E527984AC5009906ED /* QuizView.swift in Sources */,
 				522640E927986043009906ED /* alert.swift in Sources */,

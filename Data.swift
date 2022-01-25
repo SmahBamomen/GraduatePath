@@ -42,6 +42,6 @@ let IS = University.Major(name:"information systems" , numOfYears: 4)
 let CCIS = University.Collage(name:"College of Computer and Information Sciences", majors:[IT, CS , AI , IS])
 
 var Data = [
-    University(name:"Princess Nora Universty", image:"Gov-Uni-5", type: .Governmental, collages: [CCIS]),
+    University(name:"princess nora universty", image:"Gov-Uni-5", type: .Governmental, collages: [CCIS]),
 ]
 
