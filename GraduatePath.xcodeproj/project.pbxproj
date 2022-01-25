@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		362D3B08279C4B5F008D0E9A /* princess noura university.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362D3B07279C4B5F008D0E9A /* princess noura university.swift */; };
+		362D3B0A279C53A2008D0E9A /*  pnufile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362D3B09279C53A2008D0E9A /*  pnufile.swift */; };
 		522640D327984A21009906ED /* GraduatePathApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522640D227984A21009906ED /* GraduatePathApp.swift */; };
 		522640D527984A21009906ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522640D427984A21009906ED /* ContentView.swift */; };
 		522640D727984A23009906ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522640D627984A23009906ED /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		362D3B07279C4B5F008D0E9A /* princess noura university.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "princess noura university.swift"; sourceTree = "<group>"; };
+		362D3B09279C53A2008D0E9A /*  pnufile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " pnufile.swift"; sourceTree = "<group>"; };
 		522640CF27984A21009906ED /* GraduatePath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraduatePath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		522640D227984A21009906ED /* GraduatePathApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraduatePathApp.swift; sourceTree = "<group>"; };
 		522640D427984A21009906ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +71,8 @@
 				522640E227984AB7009906ED /* ConsultView.swift */,
 				522640E427984AC5009906ED /* QuizView.swift */,
 				522640E627984AD2009906ED /* AccountView.swift */,
+				362D3B07279C4B5F008D0E9A /* princess noura university.swift */,
+				362D3B09279C53A2008D0E9A /*  pnufile.swift */,
 			);
 			path = GraduatePath;
 			sourceTree = "<group>";
@@ -153,7 +159,9 @@
 				522640E127984AA9009906ED /* HomeView.swift in Sources */,
 				522640D527984A21009906ED /* ContentView.swift in Sources */,
 				522640E527984AC5009906ED /* QuizView.swift in Sources */,
+				362D3B0A279C53A2008D0E9A /*  pnufile.swift in Sources */,
 				522640D327984A21009906ED /* GraduatePathApp.swift in Sources */,
+				362D3B08279C4B5F008D0E9A /* princess noura university.swift in Sources */,
 				522640E327984AB7009906ED /* ConsultView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
