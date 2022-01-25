@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-<<<<<<< HEAD
 		521C856E279D973F00FE5048 /* UniversityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521C856D279D973F00FE5048 /* UniversityView.swift */; };
 		521C8570279ED20900FE5048 /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521C856F279ED20900FE5048 /* Rating.swift */; };
 		521C8572279EDC8700FE5048 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521C8571279EDC8700FE5048 /* RatingView.swift */; };
@@ -18,12 +17,6 @@
 		521C857C279F8F6500FE5048 /* ExpertRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521C857B279F8F6500FE5048 /* ExpertRequest.swift */; };
 		521C857E279F937B00FE5048 /* ExpertChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521C857D279F937B00FE5048 /* ExpertChat.swift */; };
 		521C858127A0197F00FE5048 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 521C858027A0197F00FE5048 /* SwiftUICharts */; };
-=======
-		362D3B08279C4B5F008D0E9A /* princess noura university.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362D3B07279C4B5F008D0E9A /* princess noura university.swift */; };
-		362D3B0A279C53A2008D0E9A /*  pnufile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362D3B09279C53A2008D0E9A /*  pnufile.swift */; };
-		366FB73527A01EC5003B6953 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 366FB73427A01EC5003B6953 /* SwiftUICharts */; };
-		366FB73727A01F15003B6953 /* UniversityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366FB73627A01F15003B6953 /* UniversityView.swift */; };
->>>>>>> 99ce5ac2d0d942c51bf667e3ea9e32cc7fd5fb0b
 		522640D327984A21009906ED /* GraduatePathApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522640D227984A21009906ED /* GraduatePathApp.swift */; };
 		522640D527984A21009906ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522640D427984A21009906ED /* ContentView.swift */; };
 		522640D727984A23009906ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522640D627984A23009906ED /* Assets.xcassets */; };
@@ -34,10 +27,14 @@
 		522640E727984AD2009906ED /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522640E627984AD2009906ED /* AccountView.swift */; };
 		522640E927986043009906ED /* alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522640E827986043009906ED /* alert.swift */; };
 		522640EB27998F8B009906ED /* ChatUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522640EA27998F8B009906ED /* ChatUI.swift */; };
+		524924FC27A026310077875B /* pnufile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524924FB27A026310077875B /* pnufile.swift */; };
+		524924FE27A026600077875B /* princess_noura_university.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524924FD27A026600077875B /* princess_noura_university.swift */; };
+		5249250027A0268F0077875B /* pnu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524924FF27A0268F0077875B /* pnu.swift */; };
+		5249250227A026F10077875B /*  homepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5249250127A026F10077875B /*  homepage.swift */; };
+		5249250427A0270F0077875B /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5249250327A0270F0077875B /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-<<<<<<< HEAD
 		521C856D279D973F00FE5048 /* UniversityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityView.swift; sourceTree = "<group>"; };
 		521C856F279ED20900FE5048 /* Rating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
 		521C8571279EDC8700FE5048 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
@@ -47,11 +44,6 @@
 		521C8579279F8F5800FE5048 /* ExpertRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpertRating.swift; sourceTree = "<group>"; };
 		521C857B279F8F6500FE5048 /* ExpertRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpertRequest.swift; sourceTree = "<group>"; };
 		521C857D279F937B00FE5048 /* ExpertChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpertChat.swift; sourceTree = "<group>"; };
-=======
-		362D3B07279C4B5F008D0E9A /* princess noura university.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "princess noura university.swift"; sourceTree = "<group>"; };
-		362D3B09279C53A2008D0E9A /*  pnufile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " pnufile.swift"; sourceTree = "<group>"; };
-		366FB73627A01F15003B6953 /* UniversityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityView.swift; sourceTree = "<group>"; };
->>>>>>> 99ce5ac2d0d942c51bf667e3ea9e32cc7fd5fb0b
 		522640CF27984A21009906ED /* GraduatePath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraduatePath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		522640D227984A21009906ED /* GraduatePathApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraduatePathApp.swift; sourceTree = "<group>"; };
 		522640D427984A21009906ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,6 +55,11 @@
 		522640E627984AD2009906ED /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		522640E827986043009906ED /* alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alert.swift; sourceTree = "<group>"; };
 		522640EA27998F8B009906ED /* ChatUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatUI.swift; sourceTree = "<group>"; };
+		524924FB27A026310077875B /* pnufile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pnufile.swift; sourceTree = "<group>"; };
+		524924FD27A026600077875B /* princess_noura_university.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = princess_noura_university.swift; sourceTree = "<group>"; };
+		524924FF27A0268F0077875B /* pnu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = pnu.swift; path = ../pnu.swift; sourceTree = "<group>"; };
+		5249250127A026F10077875B /*  homepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " homepage.swift"; sourceTree = "<group>"; };
+		5249250327A0270F0077875B /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = File.swift; path = ../File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,11 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
 				521C858127A0197F00FE5048 /* SwiftUICharts in Frameworks */,
-=======
-				366FB73527A01EC5003B6953 /* SwiftUICharts in Frameworks */,
->>>>>>> 99ce5ac2d0d942c51bf667e3ea9e32cc7fd5fb0b
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,11 +98,9 @@
 				522640D627984A23009906ED /* Assets.xcassets */,
 				522640D827984A23009906ED /* Preview Content */,
 				522640E027984AA9009906ED /* HomeView.swift */,
-				366FB73627A01F15003B6953 /* UniversityView.swift */,
 				522640E227984AB7009906ED /* ConsultView.swift */,
 				522640E427984AC5009906ED /* QuizView.swift */,
 				522640E627984AD2009906ED /* AccountView.swift */,
-<<<<<<< HEAD
 				522640E827986043009906ED /* alert.swift */,
 				522640EA27998F8B009906ED /* ChatUI.swift */,
 				521C856D279D973F00FE5048 /* UniversityView.swift */,
@@ -121,10 +112,11 @@
 				521C8579279F8F5800FE5048 /* ExpertRating.swift */,
 				521C857B279F8F6500FE5048 /* ExpertRequest.swift */,
 				521C857D279F937B00FE5048 /* ExpertChat.swift */,
-=======
-				362D3B07279C4B5F008D0E9A /* princess noura university.swift */,
-				362D3B09279C53A2008D0E9A /*  pnufile.swift */,
->>>>>>> 99ce5ac2d0d942c51bf667e3ea9e32cc7fd5fb0b
+				524924FB27A026310077875B /* pnufile.swift */,
+				524924FD27A026600077875B /* princess_noura_university.swift */,
+				524924FF27A0268F0077875B /* pnu.swift */,
+				5249250127A026F10077875B /*  homepage.swift */,
+				5249250327A0270F0077875B /* File.swift */,
 			);
 			path = GraduatePath;
 			sourceTree = "<group>";
@@ -154,11 +146,7 @@
 			);
 			name = GraduatePath;
 			packageProductDependencies = (
-<<<<<<< HEAD
 				521C858027A0197F00FE5048 /* SwiftUICharts */,
-=======
-				366FB73427A01EC5003B6953 /* SwiftUICharts */,
->>>>>>> 99ce5ac2d0d942c51bf667e3ea9e32cc7fd5fb0b
 			);
 			productName = GraduatePath;
 			productReference = 522640CF27984A21009906ED /* GraduatePath.app */;
@@ -189,11 +177,7 @@
 			);
 			mainGroup = 522640C627984A21009906ED;
 			packageReferences = (
-<<<<<<< HEAD
 				521C857F27A0197F00FE5048 /* XCRemoteSwiftPackageReference "ChartView" */,
-=======
-				366FB73327A01EC5003B6953 /* XCRemoteSwiftPackageReference "ChartView" */,
->>>>>>> 99ce5ac2d0d942c51bf667e3ea9e32cc7fd5fb0b
 			);
 			productRefGroup = 522640D027984A21009906ED /* Products */;
 			projectDirPath = "";
@@ -222,31 +206,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				521C8572279EDC8700FE5048 /* RatingView.swift in Sources */,
+				524924FE27A026600077875B /* princess_noura_university.swift in Sources */,
 				521C8576279F8E3A00FE5048 /* ExpertTabView.swift in Sources */,
+				5249250027A0268F0077875B /* pnu.swift in Sources */,
 				522640E727984AD2009906ED /* AccountView.swift in Sources */,
 				521C857E279F937B00FE5048 /* ExpertChat.swift in Sources */,
 				521C8578279F8E7A00FE5048 /* ExpertAccount.swift in Sources */,
 				522640E127984AA9009906ED /* HomeView.swift in Sources */,
 				521C8570279ED20900FE5048 /* Rating.swift in Sources */,
+				5249250427A0270F0077875B /* File.swift in Sources */,
+				5249250227A026F10077875B /*  homepage.swift in Sources */,
 				521C8574279F8DC800FE5048 /* ExpertHome.swift in Sources */,
 				522640D527984A21009906ED /* ContentView.swift in Sources */,
+				524924FC27A026310077875B /* pnufile.swift in Sources */,
 				522640E527984AC5009906ED /* QuizView.swift in Sources */,
-<<<<<<< HEAD
 				522640E927986043009906ED /* alert.swift in Sources */,
 				522640EB27998F8B009906ED /* ChatUI.swift in Sources */,
 				521C857A279F8F5800FE5048 /* ExpertRating.swift in Sources */,
-=======
-				362D3B0A279C53A2008D0E9A /*  pnufile.swift in Sources */,
->>>>>>> 99ce5ac2d0d942c51bf667e3ea9e32cc7fd5fb0b
 				522640D327984A21009906ED /* GraduatePathApp.swift in Sources */,
-				362D3B08279C4B5F008D0E9A /* princess noura university.swift in Sources */,
 				522640E327984AB7009906ED /* ConsultView.swift in Sources */,
-<<<<<<< HEAD
 				521C856E279D973F00FE5048 /* UniversityView.swift in Sources */,
 				521C857C279F8F6500FE5048 /* ExpertRequest.swift in Sources */,
-=======
-				366FB73727A01F15003B6953 /* UniversityView.swift in Sources */,
->>>>>>> 99ce5ac2d0d942c51bf667e3ea9e32cc7fd5fb0b
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,11 +429,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-<<<<<<< HEAD
 		521C857F27A0197F00FE5048 /* XCRemoteSwiftPackageReference "ChartView" */ = {
-=======
-		366FB73327A01EC5003B6953 /* XCRemoteSwiftPackageReference "ChartView" */ = {
->>>>>>> 99ce5ac2d0d942c51bf667e3ea9e32cc7fd5fb0b
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/AppPear/ChartView.git";
 			requirement = {
@@ -464,15 +440,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-<<<<<<< HEAD
 		521C858027A0197F00FE5048 /* SwiftUICharts */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 521C857F27A0197F00FE5048 /* XCRemoteSwiftPackageReference "ChartView" */;
-=======
-		366FB73427A01EC5003B6953 /* SwiftUICharts */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 366FB73327A01EC5003B6953 /* XCRemoteSwiftPackageReference "ChartView" */;
->>>>>>> 99ce5ac2d0d942c51bf667e3ea9e32cc7fd5fb0b
 			productName = SwiftUICharts;
 		};
 /* End XCSwiftPackageProductDependency section */
